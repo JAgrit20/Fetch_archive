@@ -41,7 +41,7 @@ def connectSQL(ID,title,comp,url):
 # URL from which pdfs to be downloaded
 
 for i in range(100):
-	url = f"https://archive.org/details/books?and%5B%5D=lending___status%3A%22is_readable%22&and%5B%5D=collection%3A%22americana%22&sort=-week&page=5"
+	url = f"https://archive.org/details/books?and%5B%5D=lending___status%3A%22is_readable%22&and%5B%5D=collection%3A%22americana%22&sort=-week&page=12"
 
 
 	session = session.Session()
