@@ -117,7 +117,8 @@ for i in range(100):
 									# 						aws_secret_access_key=SECRET_KEY)
 															
 									# client.upload_file(name)
-									cmd = 's3cmd put'+name_book+'s3://archivebooks/'
+									print("name_book",name_book)
+									cmd = 's3cmd put '+name_book+' s3://archivebooks/'
 
 									os.system(cmd)
 									# client.upload_file(path,  # Path to local file
