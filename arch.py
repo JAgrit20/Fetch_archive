@@ -99,7 +99,7 @@ for i in range(100):
 								idd = ''.join(str(random.randint(0,10)) for x in range(6))
 								print("idd",idd)
 
-								pdf = open("books3/"+name_book, 'wb')
+								pdf = open(name_book, 'wb')
 								# print("response.content",response.content)
 								pdf.write(response.content)
 
