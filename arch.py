@@ -119,7 +119,7 @@ for i in range(100):
 															
 									# client.upload_file(name)
 									print("name_book",name_book)
-									cmd = 's3cmd put '+name_book+' s3://archivebooks/'
+									cmd = 's3cmd put '+name_book+' s3://archivebooks/ --acl-public' 
 
 									os.system(cmd)
 									# client.upload_file(path,  # Path to local file
