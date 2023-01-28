@@ -108,6 +108,7 @@ for i in range(100):
 								connectSQL(idd,title,comp_url,f'https://archivebooks.nyc3.digitaloceanspaces.com/{name_book}')
 
 							# # Initiate session
+							p	rint("name_book",name_book)
 								try:
 									
 									# client = session.client('s3',
